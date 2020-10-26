@@ -1,0 +1,57 @@
+
+body{                                                               /* Select body elements */
+    background-image: url("images/solar-system-439046_1920.jpg");       /* Set background image attibutwe to image in images folder */
+}
+
+p{
+    
+}
+
+h1{
+    text-align: center;
+}
+
+
+h1, h2{                                                             /* Select header1 and header2 tags */
+    color: #0000ff;                                                 /* Set font color attribute to white */
+}
+
+li{
+    margin-top: 10px;
+}
+
+p{                                                              /* Select list and paragraph elements */
+    color: white;                                                  /* Set font color attribute to grey */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#horoscopes{
+    width: 65%;
+    padding: 30px 0px 30px 30px;
+    background-image: url("images/farzad-mohsenvand-TbuescuqMjA-unsplash.jpg");
+}
+#astro-signs, #horoscopes{
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+#left-astro-signs{                                                  /* Select div with id of left-astro-signs */
+    display:inline-block;                                           /* Set display attribute to inline-block, so the div doesnt take the */
+                                                                    /*   whole block leaving space for the second div */
+}
+
+#right-astro-signs{                                                 /* Select div with id of right-astro-signs */
+    display:inline-block;                                           /* Set display attribute to inline-block so it is adjacent to left div */
+    
+    margin-left: 25px;                                              /* Set left margin to 25pixels, to seperate divs and stop overlapping. */
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+#home-button{
+    margin-right: 50px;
+    float: right;
